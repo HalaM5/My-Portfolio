@@ -1,0 +1,92 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(60, 161, 127);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+header,main,footer{
+    border: 10px green solid;
+    width:100%;
+    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+header{
+    height: 20vh;
+    font-size: calc(20px + 0.5vmin);
+    padding: calc(15px + 1.5vmin);
+
+    
+}
+
+main{
+    height: 700vh;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: calc(15px + 1.5vmin);
+    top:100vh;
+    font-size: calc(18px + 0.5vmin);
+    color:antiquewhite;
+
+
+
+}
+
+/*main section*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 2px rgb(9, 3, 59) solid;
+    height: fit-content;
+    padding: 15px;
+    width: 100vw;
+}
+.paraContainer{
+    text-align:left;
+    margin: 10px;
+    
+}
+.card h2 a{
+    font-size: calc(20px + 1.5vmin);
+    color: pink;
+}
+.paraContainer li {
+    font-size: calc(14px + 1.5vmin);
+}
+.paraContainer li a{
+    text-decoration: none;
+    color: rgb(54, 32, 4);
+    font-size:calc(10px + 1.5vmin);
+}
+
+
+footer a{
+    color:antiquewhite;
+    text-decoration: none;
+    font-size: calc(10px + 1.5vmin);
+    margin-bottom:calc(15px + 1.5vmin) ;
+
+}
+
+
+
+
